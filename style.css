@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 575%;
+	color: blue;
+	margin: 20% 0;
+
+}
+
+h2 {
+	text-align: center;
+	font-size: 575%;
+	color: blue;
+
+}
+
+.parallax-h1 {
+	background: url("http://s1.picswalls.com/wallpapers/2014/02/23/desert-wallpaper_11171076_32.jpg") repeat fixed 100%;
+}
+
+.parallax-h2 {
+	background: url("http://wallpapercave.com/wp/3Mttadt.jpg") repeat fixed 100%;
+}
+
+.parallax-h3 {
+	background: url("https://images3.alphacoders.com/112/112487.jpg") repeat fixed 100%;
+}
+
+.parallax-inner{
+	padding-top: 18%;
+	padding-bottom: 10%;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
