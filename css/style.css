@@ -1,0 +1,29 @@
+
+
+
+body{
+  text-align: center;
+  background-color: #9CFFB2;
+}
+
+h1 {
+	color: black;
+	margin: 10%;
+
+}
+
+#content{
+  background-color: white;
+}
+
+article {
+  background: white;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.top-buffer {
+  margin-top: 10%;
+}
