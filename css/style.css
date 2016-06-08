@@ -17,8 +17,28 @@ body{
 
 h1 {
 	color: black;
-	margin: 10%;
+	margin-top: 2%;
+  margin-bottom: 2%;
 
+}
+
+h1.wow {
+  margin-top: 7%;
+  color: black;
+  padding: 3%;
+  border: 3px solid black;
+  border-radius: 100px 100px 100px 100px;
+  background-color: white;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.4);
+
+
+
+
+}
+
+h1.project {
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 #content{
@@ -35,11 +55,34 @@ img#profilePic{
 }
 
 #bannerPic {
+  margin-top: 7%;
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
 }
 
+img#bannerPic{
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.4);
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+img#email {
+  width: 5%;
+  height: auto;
+}
+
+img#phone {
+  width: 4%;
+  height: auto;
+}
+
 #aboutRight {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+#skillsLeft {
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
 }
@@ -67,6 +110,43 @@ border: 1px solid black;
   margin: auto;
 }
 
+.carousel-caption {
+
+  background: #336699;
+  font: white;
+  left: 30%;
+  right: 30%;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.4);
+  border: 1px solid black;
+  margin-bottom: 5%;
+}
+
+.carousel-indicators {
+  margin-bottom: 15%;
+
+}
+
 .top-buffer {
   margin-top: 10%;
+  margin-bottom: 10%
+}
+
+a#emailLink {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 2%;
+}
+
+a#emailLink {
+  margin-bottom: 50%;
+}
+
+#picAdjust {
+  border-radius: 5px 5px 5px 5px;
+}
+
+#contentType {
+text-align: left;
+
 }

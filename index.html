@@ -21,17 +21,20 @@
                     <li> <a href="#about">About</a> </li>
                     <li> <a href="#skills">Skills</a> </li>
                     <li> <a href="#projects">Projects</a> </li>
+                    <li> <a href="#contact">Contact</a> </li>
                 </ul>
             </div>
         </div>
     </nav>
     </br>
     <div>
-    <div class="col-lg-12">
+    <div class="col-lg-4 col-lg-offset-4">
       <h1 class="wow bounceInDown">WELCOME!</h1>
+      </div>
+      <div class="col-lg-12">
       <img id="bannerPic" class="wow bounceInDown" src="images/profileBanner.png">
+      </div>
 
-    </div>
     </div>
 
     <div class="row top-buffer">
@@ -49,6 +52,19 @@
     <article id="aboutRight" class="wow bounceInRight">
       <div id="content" class="col-md-4 col-md-offset-2 text-center">
         <h1>About Me</h1>
+        <article id="contentType">
+          Hello there! My name is Donghyun Timothy Kang, but you can just call me Timmy.
+          I am a web developer/entertainer. I take pride in my skills to entertain guests,
+          friends, and family. It ranges from performing music to shock value jokes,
+          as you will see in my portfolio. I picked up web development as a way to extend
+          my entertaining purposes outside the scope of my bubble I've become so fond of.
+          When I'm not around entertaining a crowd, you can catching me shredding on a
+          electric violin/guitar or being a couch potato and playing that new video game
+          everybody is talking about. Whether it be coding or entertaining, I'm very
+          ambitious when I'm in the moment.
+
+
+        </article>
       </div>
     </article>
 
@@ -59,9 +75,36 @@
     </br>
 
     <div class="row top-buffer">
-    <article id="skills" class="wow bounceInLeft">
+    <article id="skillsLeft" class="wow bounceInLeft">
       <div id="content" class="col-md-4 col-md-offset-1 text-center">
         <h1>Skills</h1>
+        <article id="contentType">
+          Let's talk business! I come with a wide variety of knowledge right out of the box.
+          General Assembly has taught me a wide variety of technology and practices that many web developers use.
+          Obviously HTML, CSS, and Javascript is the main staple of every web developer's diet, but just to list
+          a few pieces of tech that I have used are: jQuery, AJAX, Angular, Node, Express, Ruby, Ruby on Rails,
+          MongoDB, postgreSQL, and the list goes on and on. Those are just a few to list that I have used
+          for projects that are floating around on the web somewhere. There are a few pieces of tech that I have
+          learned as well that I have not utilized yet in the real world which includes PHP and Typescript.
+        </article>
+        </br>
+        <article id="contentType">
+          At the risk of sounding like an infomercial, that's not all! I come loaded with skills before
+          General Assembly. During my time at the university I have learned a few compiling languages as well,
+          which includes C, C++, and Java. I also learned the intricacy of assembly language and
+          boolean logic as well.
+        </article>
+        </br>
+        <article id="contentType">
+          Let's get a little soft. I've dabbled quite a bit of time in the service industry.
+          A skill that most people don't realize or think about that comes with it is communication.
+          This is a skill that can't be learned by just locking yourself in a room and studying for
+          hours. It comes with experience. Through communication, you build team work which is
+          extremely important in the programming world, and if you're really skilled, you could
+          build connections, which in turn becomes adaptability which is important for a tech industry.
+          Now let's see those projects!
+        </article>
+
       </div>
     </article>
 		<article id="skills" class="wow bounceInRight">
@@ -76,39 +119,51 @@
     <div class="row top-buffer">
 		<article id="projects">
 			<div id="content" class="col-md-8 col-md-offset-2 text-center">
-				<h1>Projects</h1>
+				<h1 class="project">Projects</h1>
 				<div id="my-slider" class="carousel slide" data-ride>
 					<ol class="carousel-indicators">
 						<li data-target="#my-slider" data-slide-to="0" class="active"><li>
 						<li data-target="#my-slider" data-slide-to="1"><li>
-
 					</ol>
 
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
-							<img src="images/CardsAgainstHumanity.png" alt="Cards Against Humanity" >
-							<div class="carousel-caption">
-								<h3>Cards Against Humanity</h3>
-							</div>
+							<a id="picAdjust" href="http://donghyuntimkang.github.io/Project1/" target="_blank"><img src="images/CardsAgainstHumanity.png" alt="Cards Against Humanity"></a>
+
+              <div class="carousel-caption-two">
+                <h3>Cards Against Humanity</h3>
+                <article>
+                   A digital version of a popular card game, Cards Against Humanity, used at social events with close friends. The game supports 4 players max.  Player one starts out as a judge, and turns for judge rotate to each player each round. Score is kept for all players. A notification is brought up after round 5 to end the game. If the group wishes to continue, the game will continue until the black card deck is depleted.
+                </article>
+              </div>
 						</div>
 						<div class="item">
-							<img src="images/PwnHub.png" alt="video games">
-							<div class="carousel-caption">
+							<a id="picAdjust" href="http://pwnhub.herokuapp.com/" target="_blank"><img src="images/PwnHub.png" alt="video games"></a>
+							<div class="carousel-caption-two">
 								<h3>Pwn Hub</h3>
+                <article>
+                PwnHub is a website for users to share their latest video game triumphs. It best thrives on Xbox One because of Microsoft's built in DVR function. The input will take in a video link and a description of the video. Other users will be able to comment on posted videos. These functions are only accessible when a user has an account and logged in.
+                </article>
 							</div>
 						</div>
 
 						<div class="item">
-							<img src="images/Groupy.png" alt="music events">
-							<div class="carousel-caption">
+							<a id="picAdjust" href="http://groupyevents.herokuapp.com" target="_blank"><img src="images/Groupy.png" alt="music events"></a>
+							<div class="carousel-caption-two">
 								<h3>Groupy</h3>
+                <article>
+                Groupy is an app that allows people with similar taste in music group together and attend events. It allows a platform for users to add events to their individual user profile. Within the user profile, each event displays information about the event along with the ability to comment and in turn band together a group to attend the venue.
+                </article>
 							</div>
 						</div>
 
 						<div class="item">
-							<img src="images/CoverMaestro.png" alt="music covers">
-							<div class="carousel-caption">
+							<a id="picAdjust" href="http://covermaestro.herokuapp.com" target="_blank"><img src="images/CoverMaestro.png" alt="music covers"></a>
+							<div class="carousel-caption-two">
 								<h3>Cover Maestro</h3>
+                <article>
+                Cover Maestro is a website for users with little to no music experience to pick up an instrument (guitar for now), and start playing their favorite pop songs. On signup, users are taken to welcome page to learn their first lesson. Once a user has joined, they have the ability to add their own rendition of any pop song or edit existing posted songs.
+                </article>
 							</div>
 						</div>
 
@@ -123,6 +178,24 @@
 			</div>
 		</article>
     </div>
+
+    <div class="row top-buffer">
+    <article id="contact" class="wow bounceInRight">
+      <div id="content" class="col-lg-4 col-md-offset-4 text-center">
+        <h1>Let's Talk!</h1>
+        <div><img id="phone" src="images/phone.png"> (661) 444-1778</div>
+        </br>
+        <a id="emailLink" href="mailto:donghyuntimkang@gmail.com"><img id="email" src="images/emailicon.png"> donghyuntimkang@gmail.com</a>
+        </br>
+        <div>
+        </br>
+        </div>
+        <div>
+      </div>
+    </article>
+
+    </div>
+
 
 
 	</body
