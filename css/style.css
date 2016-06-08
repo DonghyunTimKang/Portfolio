@@ -1,9 +1,18 @@
 
+.nav {
+    background-color:#336699;
+    border-radius: 5px 5px 5px 5px;
+    font: white;
+    border: 1px solid black;
+}
 
+.nav a {
+  color: white;
+}
 
 body{
   text-align: center;
-  background-color: #9CFFB2;
+  background-image: url("../images/portfoliobackground.png");
 }
 
 h1 {
@@ -16,8 +25,42 @@ h1 {
   background-color: white;
 }
 
+img#profilePic{
+    width: 80%;
+    height: auto;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.4);
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+#bannerPic {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+#aboutRight {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+img#skillsPic{
+    width: 130%;
+    height: auto;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.4);
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
 article {
   background: white;
+}
+
+#content {
+box-shadow: 10px 10px rgba(0, 0, 0, 0.4);
+border-radius: 5px 5px 5px 5px;
+border: 1px solid black;
 }
 
 .carousel-inner img {
